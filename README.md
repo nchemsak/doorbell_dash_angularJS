@@ -22,4 +22,4 @@ TODO: Write history
 TODO: Write credits
 
 ## License
-MIT License
+[MIT License] (https://github.com/nchemsak/doorbell_dash_angularJS/blob/master/LICENSE)
