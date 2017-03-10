@@ -8,19 +8,25 @@
   <link rel="stylesheet" href="lib/node_modules/animate.css/animate.min.css">
   <link rel="stylesheet" href="lib/node_modules/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Kanit:400,500,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body ng-app="doorbellDashApp">
   <div id="wrapper">
     <header>Doorbell Dash</header>
+    <div ng-include="'partials/navbar.html'"></div>
     <footer></footer>
   </div>
   <script src="lib/bower_components/angular/angular.min.js"></script>
   <script type="text/javascript" src="lib/bower_components/angular-route/angular-route.min.js"></script>
   <script type="text/javascript" src="app/app.js"></script>
-  <script src="lib/node_modules/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+  <script src="lib/node_modules/jquery/dist/jquery.min.js"></script>
   <!-- Factories/Providers -->
   <!-- Controllers links -->
+  <script src="app/controllers/loginCtrl.js"></script>
+  <script src="app/controllers/navbarCtrl.js"></script>
 </body>
 
 </html>
