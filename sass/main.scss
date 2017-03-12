@@ -343,6 +343,7 @@ h1 {
   width: 100%;
   z-index: 0;
   position: relative;
+  background-size: cover;
 }
 
 ::-webkit-scrollbar {
@@ -464,4 +465,19 @@ h1 {
     justify-content: center;
     text-align: center;
   }
+}
+
+
+header {
+  background-color: black;
+  color: #5AB3D1;
+}
+
+footer {
+  background-color: black;
+  color: #5AB3D1;
+}
+
+h2 {
+  color: black;
 }

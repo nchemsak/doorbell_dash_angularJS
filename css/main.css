@@ -298,7 +298,8 @@ h1 {
   box-sizing: border-box;
   width: 100%;
   z-index: 0;
-  position: relative; }
+  position: relative;
+  background-size: cover; }
 
 ::-webkit-scrollbar {
   width: 8px; }
@@ -406,5 +407,15 @@ h1 {
     font-size: 4.5vw;
     justify-content: center;
     text-align: center; } }
+header {
+  background-color: black;
+  color: #5AB3D1; }
+
+footer {
+  background-color: black;
+  color: #5AB3D1; }
+
+h2 {
+  color: black; }
 
 /*# sourceMappingURL=main.css.map */
