@@ -25,7 +25,7 @@ app.config(($locationProvider, $routeProvider, $httpProvider) => {
       templateUrl: 'partials/chat.html',
       controller: 'chatCtrl'
     })
-    .otherwise('/');
+    .otherwise('/home');
   $locationProvider.hashPrefix('');
 
   // angular.module('Bangazon').factory('RootFactory', [

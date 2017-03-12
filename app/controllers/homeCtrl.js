@@ -1,5 +1,4 @@
 'use strict';
-app.controller("homeCtrl", function($scope, AuthFactory, $window) {
+app.controller("homeCtrl", function($scope, $window) {
   $scope.title = "home";
-
 });
